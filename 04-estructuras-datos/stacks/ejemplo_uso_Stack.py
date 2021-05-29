@@ -2,13 +2,13 @@
 # es un tipo de dato LIFO(Last In Firt Out)
 # El stack es un tipo de dato abstracto que se usa en muchos lenguajes 
 # de programacion y cumple unas funciones especificas.
-# sus metodos son append() en python o push() en otros lenguajes de programacion
-# el cual agrega un elemento al final del stack,
+# sus metodos principales son append() en python o push() en otros lenguajes de programacion
+# el cual agrega un elemento al final del stack y 
 # pop() el cual retira el ultimo elemento del stack.
 
-# el siguiente es un ejerciocio que implemente el uso de un stack para 
+# el siguiente es un ejercicio que implementa el uso de un stack para 
 # crear una funcion, la cual verifica que el orden de los signos 
-# parentesis,corchetes y llaves se a correcto
+# parentesis,corchetes y llaves sea correcto
 
 def comprobar(cadena_caracteres):
     signos = {
